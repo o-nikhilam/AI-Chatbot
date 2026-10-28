@@ -1,0 +1,80 @@
+
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening", "How are you", "Hi there"],
+      "responses": ["Hello! How can I help you?", "Hi! Welcome to AI Chatbot.", "Hey! What would you like to learn today?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later", "Talk to you later", "See you"],
+      "responses": ["Goodbye! Have a nice day.", "See you soon!", "Take care! Bye."]
+    },
+    {
+      "tag": "name",
+      "patterns": ["What is your name", "Who are you", "Tell me your name", "What should I call you"],
+      "responses": ["I am your AI Chatbot.", "You can call me AI Assistant.", "I am an AI chatbot built using Deep Learning."]
+    },
+    {
+      "tag": "deep_learning",
+      "patterns": ["What is deep learning", "Explain deep learning", "Define deep learning", "Tell me about deep learning", "How does deep learning work"],
+      "responses": ["Deep Learning is a subset of Machine Learning that uses neural networks with multiple layers.", "Deep Learning helps computers learn complex patterns from data using multilayer neural networks."]
+    },
+    {
+      "tag": "machine_learning",
+      "patterns": ["What is machine learning", "Explain machine learning", "Define machine learning", "Tell me about machine learning", "How does machine learning work"],
+      "responses": ["Machine Learning is a branch of AI that enables computers to learn patterns from data.", "Machine Learning uses data and algorithms to make predictions or decisions."]
+    },
+    {
+      "tag": "artificial_intelligence",
+      "patterns": ["What is AI", "What is artificial intelligence", "Explain artificial intelligence", "Define AI", "Tell me about AI"],
+      "responses": ["Artificial Intelligence is a field of computer science focused on building systems that perform tasks requiring human-like intelligence.", "AI enables machines to perform tasks such as reasoning, prediction, language processing and image recognition."]
+    },
+    {
+      "tag": "nlp",
+      "patterns": ["What is NLP", "Explain natural language processing", "What is natural language processing", "Tell me about NLP"],
+      "responses": ["NLP stands for Natural Language Processing. It helps computers process and understand human language.", "NLP is a field of AI used for tasks such as chatbots, translation and text analysis."]
+    },
+    {
+      "tag": "python",
+      "patterns": ["What is Python", "Explain Python", "Why use Python", "What is Python programming"],
+      "responses": ["Python is a high-level programming language known for its readable syntax and extensive libraries.", "Python is widely used in AI, Machine Learning, web development, automation and data analysis."]
+    },
+    {
+      "tag": "data_science",
+      "patterns": ["What is data science", "Explain data science", "What does a data scientist do", "Tell me about data science"],
+      "responses": ["Data Science combines statistics, programming and domain knowledge to extract insights from data.", "Data Science involves collecting, cleaning, analyzing and modeling data to support decisions."]
+    },
+    {
+      "tag": "neural_network",
+      "patterns": ["What is a neural network", "Explain neural networks", "How does a neural network work", "What are artificial neural networks"],
+      "responses": ["A neural network is a machine learning model made of interconnected units called neurons, organized into layers.", "Neural networks learn patterns by adjusting weights during training."]
+    },
+    {
+      "tag": "cnn",
+      "patterns": ["What is CNN", "Explain convolutional neural network", "What is a convolutional neural network", "Where are CNNs used"],
+      "responses": ["A Convolutional Neural Network (CNN) is a deep learning model commonly used for image recognition and computer vision.", "CNNs learn visual features such as edges, shapes and patterns from images."]
+    },
+    {
+      "tag": "training",
+      "patterns": ["What is model training", "Explain training a model", "How is an AI model trained", "What is an epoch"],
+      "responses": ["Model training is the process of learning patterns from examples by adjusting model parameters.", "An epoch is one complete pass through the training dataset."]
+    },
+    {
+      "tag": "project",
+      "patterns": ["Explain your project", "How does this chatbot work", "What technologies are used", "Tell me about this chatbot project"],
+      "responses": ["This project uses Python, NLP, NLTK, TensorFlow and Streamlit. A neural network classifies user messages into intents, and the chatbot selects a response for the predicted intent.", "My project demonstrates an intent-classification chatbot built with a trained neural network and a Streamlit interface."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Thank you so much", "That was helpful"],
+      "responses": ["You're welcome!", "Happy to help!", "Glad I could help."]
+    },
+    {
+      "tag": "help",
+      "patterns": ["Help me", "Can you help me", "I need help", "What can you do"],
+      "responses": ["I can answer questions covered by my training data. Try asking about AI, Python, Machine Learning, Deep Learning, NLP or Neural Networks.", "Ask me about AI, Python, Data Science, CNNs or how this chatbot project works."]
+    }
+  ]
+}
